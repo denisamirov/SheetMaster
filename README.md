@@ -28,9 +28,9 @@
 
 #### Commits
 
-| Rule         | Description                                          | Example      |
-|--------------|------------------------------------------------------|--------------|
-| prefix: #number | Commit message should start with a prefix followed by a task/issue number. | feat: #9     |
+| Rule         | Example      |
+|--------------|--------------|
+| prefix: #number | feat: #9     |
 
 #### Branches
 
