@@ -12,3 +12,28 @@
 ### Dependencies used
 
 ### Launch conditions
+
+### Style
+
+| Prefix   | Description                                  |
+|------------|----------------------------------------------|
+| `feat`     | Adds a new feature                           |
+| `fix`      | Fixes a bug                                  |
+| `refactor` | Code improvement (no feature change)        |
+| `test`     | Adds tests                                   |
+| `style`    | Formatting (affects looks, not code logic) |
+| `ci`       | CI/CD pipeline changes                       |
+| `docs`     | Updates documentation                        |
+| `chore`   | Build process or auxiliary tool changes     |
+
+#### Commits
+
+| Rule         | Example      |
+|--------------|--------------|
+| prefix: #number | feat: #9     |
+
+#### Branches
+
+| Rule         | Example      |
+|--------------|--------------|
+| prefix-number task | feat-9   |
