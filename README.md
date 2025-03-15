@@ -37,3 +37,15 @@
 | Rule         | Example      |
 |--------------|--------------|
 | prefix-number task | feat-9   |
+
+### Fast steps
+
+#### Fast start
+```
+uvicorn main:app --reload
+```
+
+#### Install lib
+```
+python -m pip install -r requirements.txt
+```
