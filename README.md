@@ -40,7 +40,7 @@
 
 ### Fast steps
 
-#### Fast start
+#### Start API
 ```
 uvicorn main:app --reload
 ```
