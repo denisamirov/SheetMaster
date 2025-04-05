@@ -1,5 +1,6 @@
 uvicorn==0.22.0
 fastapi==0.103.2
 dotenv
-typed-ast==1.4
+# typed-ast
 pylint
+gspread
