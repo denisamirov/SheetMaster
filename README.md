@@ -40,6 +40,11 @@
 
 ### Fast steps
 
+**Python** 3.13.2
+
+- Create Google service account in [here](https://console.cloud.google.com/apis/dashboar); 
+- Put service token in root with name creds.json
+
 #### Start API
 ```
 uvicorn main:app --reload
