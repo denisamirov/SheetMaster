@@ -1,15 +1,15 @@
 # SheetMaster
- Google Таблицы — это мощный инструмент для организации, анализа и обмена данными, который идеально подходит для командной работы программистов. Наш проект помогает быстро создавать Google таблицы и вносить туда данные.
+**Google Sheets** — is a powerful tool for organizing, analyzing and sharing data, which is ideal for teamwork of programmers. Our project helps to quickly create Google tables and enter data into them.
 
-[репозиторий проекта](https://github.com/denisamirov/SheetMaster)
+[source](https://github.com/denisamirov/SheetMaster)
 
 ### Team
-- [София](https://github.com/Sofia-Fadeeva) - разработчик
-- [Арслан](https://github.com/ARSLAN20128) - аналитик
-- [Алия](https://github.com/pypsik007) - тестировщик
-- [Ранель](https://github.com/ranel211) - разработчик
+- [Sofia](https://github.com/Sofia-Fadeeva) - developer
+- [Arslan](https://github.com/ARSLAN20128) - analyst
+- [Aliya](https://github.com/pypsik007) - tester
+- [Ranel](https://github.com/ranel211) - developer
 
-### Dependencies used
+### [Dependencies used](./requirements.txt)
 
 ### Launch conditions
 
@@ -40,6 +40,11 @@
 
 ### Fast steps
 
+**Python** 3.13.2
+
+- Create Google service account in [here](https://console.cloud.google.com/apis/dashboar); 
+- Put service token in root with name creds.json
+
 #### Start API
 ```
 uvicorn main:app --reload
@@ -48,4 +53,9 @@ uvicorn main:app --reload
 #### Install lib
 ```
 python -m pip install -r requirements.txt
+```
+
+#### Pylint
+```
+pylint main.py
 ```
