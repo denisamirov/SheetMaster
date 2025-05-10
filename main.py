@@ -4,6 +4,10 @@ from os import getenv
 from dotenv import load_dotenv
 from fastapi import FastAPI, Body
 from fastapi.responses import HTMLResponse
+import logging
+from logger import logger_setup
+
+logger_setup()
 
 table_link ='https://docs.google.com/spreadsheets/d/'
 table_id = "1VKkXzFKOL85l8AiTdgk7fqBVAlsFUYw71vQS09ZOYTg"
@@ -25,6 +29,7 @@ def read_root():
     html_content = "<h2>Sheet.Master!</h2>"
     table = Sheet.get_table_by_key(Client, table_id)
     Sheet.create_row(table, 'fd', [1,2, 2])
+    logging.info('params')
     return HTMLResponse(content=html_content)
 
 @app.post('/create')
