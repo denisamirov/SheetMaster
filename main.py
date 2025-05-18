@@ -4,6 +4,10 @@ from os import getenv
 from dotenv import load_dotenv
 from fastapi import FastAPI, Path, Body, HTTPException
 from fastapi.responses import HTMLResponse
+import logging
+from logger import logger_setup
+
+logger_setup()
 
 client = Sheet.client_init_json()
 
